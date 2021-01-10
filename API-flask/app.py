@@ -12,12 +12,6 @@ def home():
 
 @app.route('/predict',methods=['POST'])
 def predict():
-<<<<<<< HEAD
-=======
-    '''
-    For rendering results on HTML GUI
-    '''
->>>>>>> 41df540936945f933efcd64a15ea6fbddddf219b
     int_features = [float(x) for x in request.form.values()]
     final_features = [np.array(int_features)]
     prediction = model.predict(final_features)
