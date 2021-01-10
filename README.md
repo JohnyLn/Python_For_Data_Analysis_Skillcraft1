@@ -33,12 +33,12 @@ Its multiplayer mode has been particularly popular, especially in South Korea, w
 
  Feature | Description | Type
  --- | --- | ---
- GameID | Unique ID number for each game | integer
- LeagueIndex | Bronze, Silver, Gold, Platinum, Diamond, Master, GrandMaster, and Professional leagues Ordinal 1-8 | integer
- Age | Age of each player | integer
+GameID | Unique ID number for each game | integer
+LeagueIndex | Bronze, Silver, Gold, Platinum, Diamond, Master, GrandMaster, and Professional leagues Ordinal 1-8 | integer
+Age | Age of each player | integer
 HoursPerWeek | Reported hours spent playing per week  | integer
 TotalHours |  Reported total hours spent playing  | integer
-PM | Action per minute | float
+APM | Action per minute | float
 SelectByHotkeys | Number of unit or building selections made using hotkeys per timestamp | float
 AssignToHotkeys | Number of units or buildings assigned to hotkeys per timestamp | float
 UniqueHotkeys | Number of unique hotkeys used per timestamp | int
